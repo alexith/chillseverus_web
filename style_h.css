@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Code Pro", Monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+
+  background-image: url("alexith22.jpg");
+
+  /* Used if the image is unavailable */
+  background-color: #313131;
+
+  /* Center the image */
+  background-position: center;
+
+  /* Do not repeat the image */
+  background-repeat: no-repeat;
+
+  /* Resize the background image to cover the entire container */
+  background-size: cover;
+}
+
+#brand-philosophy {
+  color: #f04580;
+  text-align: center;
+}
+
+button {
+  background-color: #9ec7ce;
+}
+
+#userResult {
+  color: #c0c0c0;
+}
+
+#main-heading {
+  color: #85cfec;
+  text-align: center;
+  text-decoration: none;
+}
+
+#notice {
+  color: #edacff;
+  text-align: center;
+}
+
+.queryResults {
+  text-align: center;
+}
+
+#createArt {
+  color: #e1a0f3;
+  text-decoration: none;
+}
