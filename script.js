@@ -40,10 +40,6 @@ const createArt = () => {
 
   artForm.artDescription = artDescription;
 
-  let artKeyword = document.getElementById("artKeywords").value;
-
-  artForm.artKeyword = artKeywords;
-
   artFormList.push(artForm);
 
   let addText = document.getElementById("userResult");
