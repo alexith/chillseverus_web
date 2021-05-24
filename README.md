@@ -16,5 +16,5 @@ design philosophy
     minimal
     dark
     ambient
-    straight
     creative
+
