@@ -1,48 +1,48 @@
 /*****************************************
- *
- *              ChillSeverus
- *
- *          (Entertainment Media)
- *
- *            by Akshy Chaudhary
- *
- *
- ******************************************/
+*
+*              ChillSeverus
+*
+*          (Entertainment Media)
+*
+*            by Akshy Chaudhary
+*
+*
+******************************************/
 
 class ArtForm {
-  constructor(artName, artGenre, artYear, artDescription, artKeyword) {
-    this.artName = artName;
-    this.artGenre = artGenre;
-    this.artYear = artYear;
-    this.artDescription = artDescription;
-    this.artKeyword = artKeyword;
-  }
+    constructor(artName, artGenre, artYear, artDescription, artKeyword) {
+        this.artName = artName;
+        this.artGenre = artGenre;
+        this.artYear = artYear;
+        this.artDescription = artDescription;
+        this.artKeyword = artKeyword;
+    }
 }
 
 const artFormList = [];
 
 const createArt = () => {
-  const artForm = new ArtForm();
+    const artForm = new ArtForm();
 
-  artName = document.getElementById("artName").value;
+    artName = document.getElementById("artName").value;
 
-  artForm.artName = artName;
+    artForm.artName = artName;
 
-  let artGenre = document.getElementById("artGenre").value;
+    let artGenre = document.getElementById("artGenre").value;
 
-  artForm.artGenre = artGenre;
+    artForm.artGenre = artGenre;
 
-  let artYear = document.getElementById("artYear").value;
+    let artYear = document.getElementById("artYear").value;
 
-  artForm.artYear = artYear;
+    artForm.artYear = artYear;
 
-  let artDescription = document.getElementById("artDescription").value;
+    let artDescription = document.getElementById("artDescription").value;
 
-  artForm.artDescription = artDescription;
+    artForm.artDescription = artDescription;
 
-  artFormList.push(artForm);
+    artFormList.push(artForm);
 
-  let addText = document.getElementById("userResult");
+    let addText = document.getElementById("userResult");
 
-  addText.innerText = `${artName} ${artYear} is added`;
+    addText.innerText = `${artName} ${artYear} is added`;
 };
