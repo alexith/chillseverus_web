@@ -46,3 +46,26 @@ const createArt = () => {
 
     addText.innerText = `${artName} ${artYear} is added`;
 };
+
+let userText = document.querySelector('#userText').value;
+
+console.log(userText);
+
+let lowerCaseUserText = userText.toLowerCase();
+
+console.log(lowerCaseUserText);
+
+window.onload = function () {
+
+    const target = document.querySelector('#doSomething');
+
+    target.addEventListener("click", function () {
+        console.log(lowerCaseUserText);
+    });
+}
+
+/*try {
+        typeof(lowerCaseUserText) !== string;
+    } catch {
+        alert('oops I\'m not a calculator, enter some text!!')
+    }*/
